@@ -1,5 +1,6 @@
-import ShopioHome from "@/components/ShopioHome";
+"use client"
+import WebshopHome from "@/components/webshopHome";
 
-export default function Home() {
-  return <ShopioHome />;
+export default function Home(){
+  return <WebshopHome />;
 }

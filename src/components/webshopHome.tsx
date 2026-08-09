@@ -89,7 +89,7 @@ function Header({ cart }: { cart: number }) {
       <div className="mx-auto flex h-[76px] max-w-[1500px] items-center gap-7 px-5 lg:px-10">
         <a href="#" className="flex shrink-0 items-center gap-2 text-[27px] font-extrabold tracking-tight">
           <ShoppingBag className="h-8 w-8 text-[#6937d7]" strokeWidth={2.1} />
-          Shopio
+          WebShop
         </a>
 
         <button className="hidden h-10 items-center gap-2 rounded-xl bg-[#6937d7] px-5 text-sm font-semibold text-white shadow-lg shadow-purple-200 transition hover:bg-[#5630b8] md:flex">
@@ -300,7 +300,7 @@ function Benefits() {
   );
 }
 
-export default function ShopioHome() {
+export default function webshopHome() {
   const [cart, setCart] = useState(2);
   const [query, setQuery] = useState("");
 
@@ -341,7 +341,7 @@ export default function ShopioHome() {
       <Benefits/>
 
       <footer className="border-t border-slate-100 py-8 text-center text-sm text-slate-500">
-        © 2026 Shopio. All rights reserved.
+        © 2026 webshop. All rights reserved.
       </footer>
     </main>
   );

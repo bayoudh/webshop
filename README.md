@@ -1,36 +1,131 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛍️ webshop — Modern E-Commerce Store
 
-## Getting Started
+<p align="center">
+  Modern animated e-commerce storefront built with Next.js, TypeScript and Tailwind CSS.
+</p>
 
-First, run the development server:
+<p align="center">
+  <a href="#-features">Features</a> •
+  <a href="#-tech-stack">Tech Stack</a> •
+  <a href="#-installation">Installation</a> •
+  <a href="#-project-structure">Structure</a> •
+  <a href="#-roadmap">Roadmap</a>
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Overview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**webshop** is a modern and responsive e-commerce frontend designed for a premium online shopping experience.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The interface includes animated product cards, a promotional hero section, product categories, wishlist interactions, shopping cart functionality, search, responsive navigation and modern UI animations.
 
-## Learn More
+The project is built to be connected to a production backend API.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 Demo
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Main Features
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- 🛍️ Modern e-commerce homepage
+- 🎬 Animated hero slider
+- 🖼️ Product image hover animations
+- ❤️ Wishlist functionality
+- 🛒 Shopping cart counter
+- 🔎 Product search
+- 🏷️ Product discounts
+- ⭐ Product ratings
+- 📱 Responsive mobile design
+- ✨ Smooth Framer Motion animations
+- 🎨 Tailwind CSS styling
+
+---
+
+## 🧰 Tech Stack
+
+### Frontend
+
+| Technology | Usage |
+|---|---|
+| Next.js | React framework |
+| TypeScript | Type safety |
+| React | UI development |
+| Tailwind CSS | Styling |
+| Framer Motion | Animations |
+| Lucide React | Icons |
+
+### Planned Backend
+
+| Technology | Usage |
+|---|---|
+| Node.js | Backend runtime |
+| Express.js | REST API |
+| TypeScript | Backend type safety |
+| TypeORM | Database ORM |
+| PostgreSQL | Database |
+| JWT | Authentication |
+| bcrypt | Password hashing |
+
+---
+
+## 📸 UI Sections
+
+### Navigation
+
+- webshop logo
+- Categories button
+- Product search
+- Home
+- Shop
+- Deals
+- Pages
+- Wishlist
+- Cart
+- User account
+
+### Hero Section
+
+- Promotional banner
+- Summer sale
+- Fashion promotion
+- Shop Now button
+- View Deals button
+- New customer discount
+- Animated carousel
+
+### Categories
+
+- Clothing
+- Shoes
+- Bags
+- Watches
+- Sunglasses
+- Electronics
+- Beauty
+- Jewelry
+
+### Featured Products
+
+Each product contains:
+
+- Product image
+- Product name
+- Current price
+- Previous price
+- Discount
+- Rating
+- Review count
+- Wishlist button
+- Add-to-cart button
+
+### Benefits
+
+- 🚚 Free Shipping
+- 🔒 Secure Payment
+- 🎧 24/7 Support
+- 🔄 Easy Returns
+
+---
