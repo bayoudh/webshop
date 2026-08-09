@@ -57,17 +57,6 @@ The project is built to be connected to a production backend API.
 | Framer Motion | Animations |
 | Lucide React | Icons |
 
-### Planned Backend
-
-| Technology | Usage |
-|---|---|
-| Node.js | Backend runtime |
-| Express.js | REST API |
-| TypeScript | Backend type safety |
-| TypeORM | Database ORM |
-| PostgreSQL | Database |
-| JWT | Authentication |
-| bcrypt | Password hashing |
 
 ---
 
