@@ -18,7 +18,7 @@ export default function Categories() {
           <Link
             key={c}
             href={`/shop?category=${encodeURIComponent(c)}`}
-            className="group min-w-[100px] text-center"
+            className="group min-w-25 text-center"
           >
             <div className="mx-auto h-20 w-20 overflow-hidden rounded-full bg-slate-100 shadow transition group-hover:-translate-y-1">
               <img

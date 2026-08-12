@@ -97,9 +97,12 @@ export default function CartClient() {
                   </div>
                 </div>
               </div>
-              <button className="mt-6 w-full rounded-xl bg-[#6d35d8] py-3.5 font-bold text-white">
+              <Link
+                href="/checkout"
+                className="mt-6 block w-full rounded-xl bg-[#6d35d8] py-3.5 text-center font-bold text-white hover:bg-[#5522b9]"
+              >
                 Proceed to Checkout
-              </button>
+              </Link>
             </aside>
           </div>
         )}

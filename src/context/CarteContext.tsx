@@ -16,12 +16,12 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
   const [items, setItems] = useState<Item[]>([]);
   useEffect(() => {
     try {
-      const x = localStorage.getItem("shopio-cart");
+      const x = localStorage.getItem("webshop-cart");
       if (x) setItems(JSON.parse(x));
     } catch {}
   }, []);
   useEffect(() => {
-    localStorage.setItem("shopio-cart", JSON.stringify(items));
+    localStorage.setItem("webshop-cart", JSON.stringify(items));
   }, [items]);
   const value = useMemo<Ctx>(
     () => ({

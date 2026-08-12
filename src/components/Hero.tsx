@@ -32,7 +32,7 @@ export default function Hero() {
   const s = slides[i];
   return (
     <section className="overflow-hidden rounded-b-3xl bg-[#faf6ff]">
-      <div className="container-webshop relative min-h-[440px]">
+      <div className="container-webshop relative min-h-110">
         <button
           onClick={() => setI((i - 1 + slides.length) % slides.length)}
           className="absolute left-0 top-1/2 z-20 grid h-11 w-11 -translate-y-1/2 place-items-center rounded-full bg-white shadow-lg"
@@ -52,7 +52,7 @@ export default function Hero() {
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: -25 }}
             transition={{ duration: 0.4 }}
-            className="grid min-h-[440px] items-center gap-8 px-12 py-12 md:grid-cols-2 md:px-20"
+            className="grid min-h-110 items-center gap-8 px-12 py-12 md:grid-cols-2 md:px-20"
           >
             <div>
               <span className="rounded-full bg-white px-3 py-2 text-xs font-black text-[#6d35d8]">
@@ -77,7 +77,7 @@ export default function Hero() {
                 </Link>
               </div>
             </div>
-            <div className="relative hidden h-[390px] overflow-hidden rounded-[40%_60%_50%_50%] md:block">
+            <div className="relative hidden h-97.5 overflow-hidden rounded-[40%_60%_50%_50%] md:block">
               <motion.img
                 src={s.image}
                 alt="Fashion"

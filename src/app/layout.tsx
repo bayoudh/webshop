@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Shopio — Modern Store",
-  description: "Animated modern e-commerce storefront"
+  title: "webshop — Modern Store",
+  description: "shop online"
 };
 
 export default function RootLayout({

@@ -35,7 +35,7 @@ export default function ShopClient() {
       <Header />
       <main className="min-h-screen bg-[#fcfbfe]">
         <div className="container-webshop py-10">
-          <div className="rounded-3xl bg-gradient-to-r from-purple-50 to-pink-50 p-8">
+          <div className="rounded-3xl bg-linear-to-r from-purple-50 to-pink-50 p-8">
             <p className="text-xs font-black tracking-widest text-[#6d35d8]">
               SHOP COLLECTION
             </p>
